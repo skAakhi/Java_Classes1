@@ -1,0 +1,5 @@
+1.One row horizantal with multiple vertical coloumns multiplications in 2D arrays
+
+2.Addition of two matrics
+
+3.Multiplication of two matrics

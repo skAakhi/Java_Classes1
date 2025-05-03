@@ -1,0 +1,136 @@
+✅ 6. Bitwise Operators (Advanced - Optional)
+
+🔹 What are bitwise operators in JavaScript, and how do they work?
+
+🔹 What is the difference between & and |?
+
+🔹 What does the ^ (XOR) operator return? Give an example.
+
+🔹 How does the ~ (NOT) operator work internally?
+
+🔹 What’s the output of 5 << 2 and why?
+
+🔹 What’s the difference between >> and >>>?
+
+🔹 When would you use bitwise operations in real-world applications?
+
+
+
+
+
+✅ 7. Nullish Coalescing Operator (??)
+
+❓ What is the purpose of the ?? operator in JavaScript?
+
+❓ How does ?? differ from the logical OR operator ||?
+
+❓ What will this return:
+
+javascript : 
+
+let a = "";  
+let result = a ?? "Default";
+❓ What will this return:
+
+javascript :
+
+let a = undefined;  
+let result = a ?? "Fallback";
+
+
+
+❓ When should you prefer ?? over || in form handling or user input?
+
+❓ Can you chain multiple ?? operators?
+
+
+
+
+✅ 8. Optional Chaining Operator (?.)
+
+❓ What problem does the optional chaining operator ?. solve?
+
+❓ How does optional chaining differ from traditional nested property access?
+
+❓ What will this return?
+
+javascript : 
+let user = {};  
+console.log(user.address?.city);
+
+
+❓ How does optional chaining improve code readability and error handling?
+
+❓ Can you use ?. with array elements? Like arr?.[0]?
+
+❓ What will happen if you call a non-existent method without optional chaining?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+   a = -3
+  ~a
+
+-(a+1) = -(-3+1) = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+
+
+Agenda Variables :
+
+
+
+What is a variable in JavaScript?
+
+How do you declare a variable in JavaScript?
+
+What is the difference between var, let, and const?
+
+When should you use let instead of var?
+
+What does const mean in JavaScript? Can a const variable be changed?
+
+What is variable hoisting? How does it work with var, let, and const?
+
+What are global and local variables?
+
+What is the scope of a variable?
+
+Block Scope
+
+Function Scope
+
+Global Scope
+
+Can a variable be declared without a keyword (like var, let, or const)? What happens then?
+
+What is the difference between undefined and null in the context of variables?
+
+What are best practices for naming variables?
+
+What happens if you redeclare a variable?
+
+How can you check if a variable is defined or not?
+
+
+What is a variable in JavaScript?
+
+How do you declare a variable in JavaScript?
+
+What is the difference between var, let, and const?
+
+When should you use let instead of var?
+
+What does const mean in JavaScript? Can a const variable be changed?
+
+What is variable hoisting? How does it work with var, let, and const?
+
+What are global and local variables?
+
+What is the scope of a variable?
+
+Block Scope
+
+Function Scope
+
+Global Scope
+
+Can a variable be declared without a keyword (like var, let, or const)? What happens then?
+
+What is the difference between undefined and null in the context of variables?
+
+What are best practices for naming variables?
+
+What happens if you redeclare a variable?
+
+How can you check if a variable is defined or not?

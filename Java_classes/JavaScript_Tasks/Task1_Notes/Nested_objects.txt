@@ -1,0 +1,92 @@
+
+
+
+Nested Objects example :
+
+const person = {
+  name: "Aakhib",
+  age: 21,
+  address: {
+    street: "123 Main St",
+    city: "Hyderabad",
+    pincode: 500001
+  }
+};
+
+console.log(person.address.city); // Output: Hyderabad
+
+
+
+//----------------------------------------------------------------------------------
+
+
+
+
+const student = {
+  name: "Rehaman",
+  subjects: ["Math", "Science", "English"],
+  marks: {
+    Math: 80,
+    Science: 75,
+    English: 88
+  }
+};
+
+console.log(student.marks.Science); // Output: 75
+
+
+
+//-----------------------------------------------------------------------------------
+
+
+
+
+
+
+const company = {
+  name: "Infomerica",
+  departments: {
+    IT: {
+      employees: 50,
+      head: "Mr. Shiva"
+    },
+    HR: {
+      employees: 10,
+      head: "Ms. Priya"
+    }
+  }
+};
+
+console.log(company.departments.IT.head); // Output: Mr. Shiva
+
+
+
+(or)
+
+
+console.log(company["departments"]["HR"]["employees"]); // Output: 10
+
+
+
+
+//---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+const userProfile = {
+  username: "aakhibDev",
+  personalInfo: {
+    fullName: "Md Aakhib Rehaman",
+    contact: {
+      email: "aakhib@gmail.com",
+      phone: "9876543210"
+    }
+  },
+  skills: ["Java", "JavaScript", "SQL"]
+};
+
+console.log(userProfile.personalInfo.contact.email); // Output: aakhib@gmail.com

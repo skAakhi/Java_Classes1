@@ -1,0 +1,27 @@
+Bitwise Operators (Advanced):
+
+What are bitwise operators and where are they used?
+
+
+//====================================================================================================================
+
+
+
+Modern JS Operators (Optional but Useful) :
+
+
+What is the nullish coalescing operator ?? and how is it different from ||?
+
+What does optional chaining ?. do, and when is it useful?
+
+
+//====================================================================================================================
+
+Practical Applications :
+
+
+How can we build a mini calculator using arithmetic and assignment operators?
+
+How can logical and comparison operators help in login form validation?
+
+

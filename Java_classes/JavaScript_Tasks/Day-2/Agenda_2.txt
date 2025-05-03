@@ -1,0 +1,53 @@
+ Agenda as Questions: JavaScript Objects
+
+
+
+1. What is an object in JavaScript?
+
+2. How do you create an object using object literal syntax?
+
+3. What is the difference between object literal and new Object()?
+
+4. How can you access the properties of an object?
+
+5. What is the difference between dot notation and bracket notation?
+
+6. How can you add a new property to an existing object?
+
+7. How can you update the value of a property in an object?
+
+8. How can you remove a property from an object?
+
+9. How can you check if a property exists in an object?
+
+10. What does the in operator do in relation to objects?
+
+11. What is the purpose of Object.keys()?
+
+12 What does Object.values() return?
+
+13 How do Object.entries() work and what does it return?
+
+14. What is the use of Object.assign() in JavaScript?
+
+15. What does Object.freeze() do?
+
+16. What is the difference between Object.freeze() and Object.seal()?
+
+17. Can you modify a frozen object?
+
+18. How can you clone an object in JavaScript?
+
+19. What is a shallow copy of an object?
+
+20. What is the typeof an object in JavaScript?
+
+21. How can you loop through an object's properties?
+
+22. Can an object property name be a number or a symbol?
+
+23. What happens if you access a non-existing property on an object?
+
+24. What is the default value of a missing property in an object?
+
+25. What are computed property names in objects?

@@ -1,0 +1,57 @@
+HTML : hyper text markup language
+
+
+Concepts : 
+
+1.Tags
+->sematic tags------>[1.Header ,main, footer ,section , Aside tag ]
+->Non sematic tags--->[div, span ]
+
+2.Forms 
+
+3.Lists
+->OL
+->UL
+
+4.Tables
+->
+
+
+5.anchor tages and images tags
+
+a) anchor tags
+ ->Absolute path
+ ->Relative path
+
+
+
+6.InlineElements and blockElements
+
+Block Elements:
+
+<p>
+<h1>
+<div>
+<section>
+
+
+InlineElements:
+
+<a>
+<span>
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+<div>
+
+-> class
+->id
+
+
+

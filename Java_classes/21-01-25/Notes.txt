@@ -1,0 +1,756 @@
+
+
+JAVA IS object oriented programming language
+
+->class
+->Object
+
+
+
+Features:
+
+1.Simple------------------->[English words]
+
+2.platform independent [ Java is not a fully platform independent ]
+
+3.security
+
+4.portable
+
+5.Distributed systems
+->RMI [ remote method invocation ]
+->EJB [ Enterprise java beans ]
+
+6.Multi threading
+
+
+7.Robust [ Strong ]
+
+Versions :
+java SE / Java ME / java EE
+1.java 1.1 -------> java 1
+
+2. java 2.2 ------> java 2
+
+-
+-
+-
+-
+-
+-
+-
+
+-
+-
+java 21 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+java 14 , java 12 , java 15 , java 16
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+java SE 8
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Data types:
+
+1.boolean----->true/false
+
+2.byte------->-128 to 127 [Small numerical values ]
+
+3.short ------>Numerical value
+
+4.int(%d) --------> Numerical values 34555
+
+5.float(%f)------->Floating values ex: 3.13 [ 7 digits]
+
+6.double(%f)------>Floting values  ex: 3.232 [ 16 digits ]
+
+7.char(%c)-------->  charater value ex: 'A' , 'a'  '$','&'
+
+8.long ------> Numerical value
+
+String(%s)
+
+Example:
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+     
+     boolean  flag = true;
+     byte    a = 127;
+     int  id = 10;
+     short s = 100;
+     long l = 2000;
+     float f = 3.14444f;
+     double d = 3.1123333;
+     char ch = 'a';
+      
+     System.out.println(flag);
+     System.out.println(a);
+     System.out.println(id);
+     System.out.println(f);
+     System.out.println(d);
+     System.out.println(ch);
+     System.out.println(s);
+     System.out.println(l);
+        
+    }
+}
+
+
+
+Data types:
+
+primitive data types:
+
+1.boolean----->true/false
+
+2.byte------->-128 to 127 [Small numerical values ]
+
+3.short ------>Numerical value
+
+4.int --------> Numerical values 34555
+
+5.float------->Floating values ex: 3.13 [ 7 digits]
+
+6.double------>Floting values  ex: 3.232 [ 16 digits ]
+
+7.char-------->  charater value ex: 'A' , 'a'  '$','&'
+
+8.long ------> Numerical value
+
+
+
+2.Non - primitive data types
+
+->Arrays
+->Classes [ wapper classes, String]
+
+Note: String is called as literal [ It can be act as primitive data type]
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Variable:
+
+1.Local variables [ With in blocks ]
+
+2.Instance variables [ outside blocks] At class level
+
+3. static variable  [ outside blocks(At class level) and within blocks ]
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+   1 Byte = 8 bits [10101010]
+
+   2 Bytes = 16 bits [-------  ]
+
+   4 Bytes = 32bits [ ---------]
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+  Identifiers:
+
+  Rules : 1.Should not start with numberical value ex: 12var
+          2.Some special Symbols are not accepted at beginning of variable/Identifier [ Except $ , _(unserScore)]
+          3.Can place _(underScore symbole) at beginning and in between of varaiable/identifier 
+          4.Followed by variable/identifier  number/_(underScore Symbol) can mention
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Operators:
+
+  1.Unary Operator [ ++ , -- ] increment by 1 / decremant by 1
+  a.
+  -> ++ value [pre increament ]
+  -> value ++ [post increamnet ]
+  b.
+  -> -- value [ pre decreament ]
+  -> value -- [post decreamnet ]
+
+
+
+  2.Binary Operators
+  ->Arthematic Operator [ +, - , % , / , * ]
+  ->Assignment Operator [ += , -= , %= , *= , /= ]
+  ->Relational operator [ < , > , <= , >= , == , != ]----->Return boolean values [ true / false ]
+  ->Bitwise operators   [ & , | , ^ , ~ , >> , << ]--->Decimal value will convert into ---> Binary ---> According operator will perform operation
+  ->Logical operators   [&& ,|| , ! ]----->Return boolean values ex:true/false
+
+
+
+  3.Terenary Operators [ ? : ]
+  ->(condition) ? Expression/value :Expression/value
+
+
+4. instance of ---->
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+//Arthematic operator [ + , - , % , / , *]
+//Assignment operator [ += , -= , %= , /= , *=]
+class Main {
+    public static void main(String[] args) {
+       
+       int a = 5,b=10;
+       
+      
+       System.out.println(b/=a);
+       
+       System.out.println(a);
+       a+=b;//a=a+b;
+       System.out.println(a);
+       a-=b;//a=a-b
+       System.out.println(a);
+       a*=b;//a=a*b
+       System.out.println(a);//->50
+       a%=b;//a=a%b-->a=50%10
+       System.out.println(a);//-->0
+      // b/=a;//b=b/a--->b=10/0--> A number cannot divde by zero
+      
+        System.out.println(b);
+    }
+}
+
+
+
+
+
+
+
+
+
+//Arthematic operator [ + , - , % , / , *]
+//Assignment operator [ += , -= , %= , /= , *=]
+class Main {
+    public static void main(String[] args) {
+       
+       int a = 5,b=10;
+       
+       System.out.println(a+=b);//a=a+b-->a[15]
+       System.out.println(a-=b);//a=a-b--->a[5]
+       System.out.println(a*=b);//a=a*b--->a[50]
+       System.out.println(a%=b);//a=a%b---->a[0]
+       System.out.println(a);
+
+        System.out.println(b);
+    }
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Scanner class
+---------->
+methods:
+
+int -->nextInt();
+String --->next();[If want take only one word] , nextLine() [ If you wnat to read entire sentence ]
+float----->nextFloat();
+double--->nextDouble();
+
+------------------------------------------------------------------->
+
+ASCII values :
+
+65-90  [A-->Z]
+97-122 [a-->z]
+48-57 [0-->9]
+------------------------------------------------------------------>
+
+Control statemnets / Conditional statements:
+
+1.if condition
+
+2.if-else condition
+
+3.if-else-if condition
+
+4.Switch cases
+
+5.Nested if condition 
+
+----------------------------------------------------------------------->
+
+Loops :
+
+1.for loop ---->Task1[Printing  factors] ,Task2[Prime numbers]---->continue , break;
+
+2. for each loop--->(objects,collections)
+
+3.while loop
+
+4.do while
+
+------------------------------------------------------------------------------------------->
+
+Pattern:--->[for loop inside another for loop]---->Nested loops
+
+
+---------------------------------------->
+
+Number crunching
+
+
+
+----------------------------------------->
+
+
+methods 
+
+
+----------------------------------------->
+
+
+
+
+------------------------------------------------------------------------------->
+
+
+//Continue , break
+//Task : Prime numbers
+// A number which is divisible by one and itself 
+// num -> ? prime number otherwise Not prime number
+//num - > 11--->Prime number
+
+//10%2==0
+//10%3==2
+//10%4==3
+//10%5==0
+//10%6==5
+//10%7==4
+//10%8==3
+//10%9==2
+//10%10==0
+
+
+
+
+// Num - > 10%1==0--->Not prime number
+
+//Num - > 13%1==0
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+    int num;
+    boolean flag=false;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter a num ");
+    num=sc.nextInt();
+    
+    
+    for(int i=2;i<=num/2;i++)
+    {
+        if(num%i==0){
+            flag=true;
+            break;
+        }
+        
+    }
+    
+    if(flag)
+      System.out.println("Not  a Prime Number");
+    else
+    System.out.println(" Prime Number");
+    }
+}
+
+
+//------------------------------------------------------------------------------>
+
+
+// Task : 
+//           j           
+//     1 2 3 4 
+// i   1 2 3 4 
+
+
+class Main {
+    public static void main(String[] args) {
+       
+       
+       for(int i=3;i>=1;i--)
+       {        
+           for(int j=1;j<=i;j++)
+           {
+              System.out.print("* ");
+           }
+           System.out.println();
+           
+       }
+    }
+}
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+       
+             
+       for(int i=1;i<=3;i++)
+       {        
+           
+           for(int j=1;j<=3-i;j++)
+           System.out.print(" ");
+           
+           for(int j=1;j<=i;j++)
+           System.out.print("*");
+           
+           System.out.println();
+       }
+       
+       
+       for(int i=3;i>=1;i--)
+       {        
+           
+           for(int j=1;j<=3-i;j++)
+           System.out.print(" ");
+           
+           for(int j=1;j<=i;j++)
+           System.out.print("*");
+           
+           System.out.println();
+       }
+    }
+}
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------->
+
+class is blue print of obejct
+
+
+House(class)
+
+Members:
+1.Kitchen
+2.BedRoom
+3.WashRoom
+4.Balkeni
+
+
+----------------------------------------------->
+
+java :
+
+class :
+
+members:
+1.Methods--------->Behaviour of object
+ 1.1->Calling method inside another method
+Task:
+Printing factors , prime numbers , factorial values, swapping of two values
+
+
+----------------------------------------------------------------------------------------------------->
+
+2.Constructors and use this keyword
+ ->Parameterized constructor
+ ->parameterless constructors
+
+2.1 Constructor chaining
+
+3.Instance variables
+
+
+
+
+
+--------------------------
+4.Inner classes
+5.Anonymous inner clasees
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------->
+
+Method Syntax:
+
+public/private/default/proctected  return_type MethodName(--------){
+
+-------
+----
+---
+}
+
+
+
+
+
+class Tree {
+
+int id;
+public  Tree(--------)
+{
+this.id=value;
+
+}
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+Arrays [ Used to store same type of elements ]
+[user defined arrays , primitive type arrays]
+
+
+1.Single dimensional arryas
+->compile 
+->Runtime--->[Scanner]
+
+2.Multi-dimensional array
+->compile 
+->Runtime--->[Scanner]
+
+3.Jagged array
+
+
+//------------------------------->[user defined arrays]
+
+
+
+----------------------------------------------------------------------------------------------------------------------->
+
+String : [ Imutable and literal ]
+
+1.String---------->Immutable
+2.StringBuilder--->Mutable
+3.StringBuffer---->Mutable
+
+//-------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+OOPS: object oriented programming
+
+1.Inheritance ------->(extends)--------------super
+
+--->interfaces-------->(implements)----------->Business logic
+->extends---------->class--->class
+->implements------->interface--->class
+
+
+2.abstraction-------------------------------------------------->Hiding implementation part showing the neccessary details
+
+->ATM --->(current balance , depoisted amount)
+->how munch amount
+->how it calculating
+->how 500,100,200
+
+a)using classes
+b)using interfaces
+
+3.Encapsulation-------->wrapping the data(hiding the sensitive data)
+
+4.polymorphism----------------->manyForms
+->method overloading----->(compile-time)
+->method overriding------>(run-time)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+1.Exception handling
+->compile-time exceptions
+->run-time exceptions
+
+2.Collections
+
+3.Multi-threading 
+
+4.function interface 
+ ->Lambda expressions
+
+5.Stream API
+
+6.use Comparator and comarable interfaces and its methods 
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+Exception Handling:
+
+1.What is an exception ?------Error
+
+
+2.What is exception handling ? -----If you can able handle those errors by yourself 
+
+
+3.Why do we need exception handling ?-----To manage the errors
+
+
+4.Differnt types of exception ?
+
+->checked exceptions(compile_time errors)
+->un_checked exceptions(Run_time errors)
+
+
+5.How to use try , catch and finally blocks ?
+
+
+6.How to use throw and throws keywords ?
+
+
+7.Hierarchy of exception in java ?
+
+->Object
+   ->Throwable
+     ->Exception
+       *RuntimeException
+        1.IndexOutOfBoundsException
+        2.NullPointer Exception
+        3.Arthematic Exception
+
+        *IO Exception
+        1.FileNotFoundException
+        *SQL Exception
+       
+
+
+//---------------------------------------------------------------------------------------------------------------------
+
+
+Multi_threading:
+
+1.What is task , multi-tasking ?----------->
+
+2.what is process and multi-processing ?----->
+
+3.what is thred and multi-threading---------->Person
+
+------------------------------------------
+
+
+4. How to implement multi-threading ?
+
+
+5.In how many ways we can implement multi-threading concepts ?
+
+
+6.Life cycle of multi-threading 
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Wrapper classes :
+
+
+Collection : EveryThing we store / deal objects or classes
+
+
+List<Integer> l = new ArrayList<>();
+
+l.add(10);
+l.add(30);
+l.add(40);
+
+
+
+
+
+Data_types :
+
+1.Primitive data types ------>Not objects / classes
+->short---->Short
+->byte ---->Byte
+->int ----->Integer
+->double--->Double
+->float---->Float
+
+2.Non privitive data types
+
+//-------------------------------------------------------------------------------------------------------------------
+
+
+
+Stream API :--->process
+
+1.Terminal methods 
+/*
+	 * Terminal methods:
+	 * 1.min
+	 * 2.max
+	 * 3.count
+	 * 4.reduce
+	 * 5.foreach
+	 * 6.collect
+	 * 7.toArray
+	 * 
+	 * These Terminals methods directly we can apply on streams or else with Non-Terminal methods to process the data 
+	 */
+
+2.Non Terminal methods 
+
+
+*
+	 * Non-Terminal methods :
+	 * 1.Distinct
+	 * 2.limit
+	 * 3.filter
+	 * 4.map
+	 * 5.flatMap
+	 * 
+	 * FlatMap is for stream of collection objects , it is similar like map but we use it for processing single object
+	 * EXample:
+	 * list=[[1,2],[3,4],[5,6]] 
+	 * 
+	 */
+
+
+
+
+
+
+
+
+
+

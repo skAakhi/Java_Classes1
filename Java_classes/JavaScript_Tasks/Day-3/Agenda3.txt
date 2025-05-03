@@ -1,0 +1,64 @@
+ JavaScript Operators - Agenda as Questions
+What are operators in JavaScript and why do we need them?
+
+What are the different types of operators available in JavaScript?
+
+
+//=============================================================================================================
+
+
+ Arithmetic Operators :
+
+What does each arithmetic operator (+, -, *, /, %, **, ++, --) do?
+
+How does JavaScript handle division and modulus?
+
+What is the difference between pre-increment and post-increment?
+
+
+
+//==================================================================================================================
+
+Assignment Operators :
+
+How do assignment operators like =, +=, -= work?
+
+Can we combine assignment with arithmetic in one line? How?
+
+
+
+//=====================================================================================================================
+
+
+Comparison Operators :
+
+What’s the difference between == and ===?
+
+How do != and !== differ?
+
+How do comparison operators help in conditional statements?
+
+
+
+
+//====================================================================================================================
+
+
+
+Logical Operators :
+
+
+How do &&, ||, and ! work in JavaScript?
+
+What are truthy and falsy values in logical operations?
+
+
+
+//===================================================================================================================
+ 
+Ternary Operator :
+
+
+What is the ternary operator and how is it a shortcut for if-else?
+
+Can we nest ternary operators? Should we?

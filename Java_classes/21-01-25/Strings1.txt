@@ -1,0 +1,134 @@
+String related methods:
+
+1.CharAt()
+
+2.equals()
+
+3.equalsIgnoreCase()
+
+4.contains()
+
+5.startsWith()
+
+6.endsWith()
+
+7.trim()
+
+8.split(\\)
+
+9.length()
+
+10.replace()
+
+11.replaceAll()
+
+12.isEmpty()------>If length is 0 then will give true as output
+
+13.isBlank()------>If there is no content will give true as a output.
+
+14.indexOf()
+
+15.lastIndexOf()
+
+16.substring()
+
+17.class.valueOf()
+
+18.tocharArray()
+
+19.toLowerCase()
+
+20.toUpperCase()
+
+
+
+Assignment:
+
+1.Write a java program to count the number of characters in a string
+input: java is super     output: 13
+
+
+2.Write a java program to count the number of words in a string
+input: java is super     output: 3
+
+
+3.Write a java program to count the total  number of occurences of given charaters in a string
+input: Hello world   target character: l
+
+Output : 3
+
+
+
+4.Write  a java program to reverse a string
+input: java is super   output: repus si avaj
+
+
+5.Write a java program to remove all starting  and ending spaces from a string.
+input:   Hello World  
+output:Hello World
+
+
+6.Write a java program to reverse each word of a given string
+input:java is easy    output:avaj si ysae
+
+
+7.Write a java program to modify the string in the following patteren
+
+::::Change odd words to upperCase and Reverse the even words
+
+input: This is a test string!!    output:THIS si A tset STRING!!
+
+
+
+
+8.Write a java program to find the count of upperCase letters,lowerCase letters,digits and special characters in a given string
+
+
+
+
+9.WAP to find out first repeated and non repeated charaters in a given string
+input:  java is easy
+
+output: Firstrepeatedcharater-a  firstnonrepeatedcharacter-j
+
+
+
+10.write a java program to create an array using words at even positions in a string
+
+input:java is keka easy and awesome  output:{"is","keka","and"}
+
+
+11.WAP to find maximum length word in a given string if two words are same length then return first occuring word of max length.
+
+input:Hello how are you moooooon   output: moooooon
+input:hello how are you reddy      output:hello
+
+
+
+12.Compare two strings,if the characters in string 1 are present in string 2, then it should be printed as sunch in output
+   else'+' should be printed in output
+
+input1:New York    input2:NWYR   output:N+w+y+r+
+
+
+
+13.Given the first name and last name, print the last name and first followed by "," and first charater of the first name
+
+input1: (First Name): Steve    input2(Last Name):jobs
+
+output:jobs,s
+
+
+
+14.WAP to print the file name extension in the console
+
+input(File Name):Passport.jpg  output:jpg
+input(File Name):Pancard.png   output:png
+
+
+
+
+15.WAP to verify whether the given string is palindrome or not
+
+
+
